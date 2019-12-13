@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.grupo-div {
+    margin: 0 auto;
+    background-color: rgb(72, 155, 155);
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-st;
+
+     
+}
+.primeira-div{
+    background-color: rgb(139, 37, 37);
+    width: 10%;
+    height: 35%;
+}
+
+.segunda-div{
+    background-color: rgb(9, 146, 146);
+    width: 10%;
+    height: 35%;
+}
+
+.terceira-div {
+    background-color: rgb(151, 84, 214);
+    width: 10%;
+    height: 35%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Moon viagens</title>
+</head>
+
+<body>
+    <section class="container">
+        
+        <form class="form">
+
+            <aside>
+                    <div class="formularios">
+                            <label for="name"> <b> Nome</b> </label>
+                            <input class="form__input" type="text" placeholder="Digite aqui">            <label for="email"> <b> E-mail </b> </label>
+                            <input class="form__input" type="email" placeholder="Digite seu email">
+                    </div>
+            </aside>
+           
+
+             <div class="senha">
+                    <label for="Senha"> <b>Senha</b>  </label>
+                    <input class="form__input" type="text" placeholder="Digite sua senha aqui">
+                    <a href="https://olhardigital.com.br/dicas_e_tutoriais/noticia/esqueceu-a-senha-do-wi-fi-saiba-como-recuperar/76952" target="_blank"> Esqueci a minha senha</a>
+                </div>
+         
+            <div class="formularios">
+                    <label for="genero"> <b>Qual o seu gênero?</b></label>
+                    <input type="radio" name="genero" value="Feminino"> 
+                    <span class="form__input-span">Feminino</span> 
+                    <input type="radio" name="genero" value="Masculino"> 
+                     <span class="form__input-span">Masculino</span>               
+                    <input type="radio" name="genero" value="Outro">
+                    <span class="form__input-span">Outro</span> 
+            </div>
+
+            <div class="formularios">
+                    <label for="comidas"> <b>Qual o seu tipo de comida preferida?</b></label>
+                    <input class="form__input-checkbox" type="checkbox" name="caseira"> <span>Caseira</span>
+                    <input type="checkbox" name="Fast-Food"> <span> Fast-Food</span>
+                    <input type="checkbox" name="japa"><span>Japonesa</span>
+                    <input type="checkbox" name="Árabe"> <span>Árabe</span>
+                    <input type="checkbox" name="Outras"> <span>Outras</span>
+            
+            </div>
+
+            <div class="numeros">
+                <label for="idade"> Qual a sua idade?</label>
+                <input type="number" min="0" max="90">
+
+            </div>
+
+            <div class="refeicoes">
+                <label for="refeiçoes">  Você costuma fazer as suas refeições em ...? </label>
+                
+                <select name="refeicoes" >
+
+                    <option value="restaurantes"> Restaurantes</option>
+                    <option value="casa">Casa</option>
+                    <option value="trabalho">Copa do prédio onsde trabalha</option>
+                    <option value="ar">Ao ar livre</option>
+                    <option value="outros"></option>
+
+                </select>
+
+            </div>
+            
+
+            <button class="form__botao">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    width:100px;
+    height: 100px; 
+}
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: aquamarine;
+    background-image: url("../Img/code.jpg");
+    width: 100%;
+}
+h1 {
+    color: white
+}

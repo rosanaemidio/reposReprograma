@@ -1,0 +1,25 @@
+SEMANA DE PROJETO
+
+Para criar uma interação em um botão, eu crio um evento.
+1º eu preciso capturar o elemento que eu manioular.
+2º Mas antes eu preciso criar uma constante pra facilitar a manipulação e guardar essas infos.
+EX: const lalala = document.getElementById('nome da id que eu quero capturar')
+3º adiciono o evento que eu quero que aconteça com o .addEventListener()
+EX: lalala.addEventListener("o evento que eu quero", função callback(){
+    o que vai acontecer, podendo ter um if e else. Porém nem sempre será preciso usá-lo
+
+}) 
+
+Quando quiser capturar um valor de um input e mostrar na tela
+ 
+
+
+innerHtml pega o que abre e fecha; Ele é equivalente ao .textContent; Ele transforma em strings.
+
+Para mudar o valor do objeto eu preciso chamar o objeto e mudar o valor deste objeto.
+EX: lalala.value = '';
+
+no dom 
+
+forEach é uma iteração p/ Arrays; Ele percorre cada elemento de uma Array;
+E eu preciso passar uma função callback, que pode receber até 3 parâmetros (valorAtual, indice, arrayInteira);
